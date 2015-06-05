@@ -1,0 +1,26 @@
+
+Length
+  Equality
+[32m    should be equal to itself[0m
+[32m    with 10 mm should not be equal to length with 11 mm[0m
+[32m    with 10 cm should be equal to 100 mm[0m
+[32m    with 10.1 m should be equal to 1010 cm[0m
+  Add
+[32m    should be equal same when lenght of 0 m is added[0m
+[32m    with 10 mm should return length 15 mm when length with 5mm is added[0m
+[32m    with 10 mm should return length 15 mm when length with 5mm is added[0m
+[32m    with 10 mm should return length 15 mm when length with 5mm is added[0m
+  Multiplication
+[32m    should be equal same when integer 1 is multiplied[0m
+[32m    with 10m should be equal to length with 20m when integer 2 is multiplied[0m
+[32m    with 100cm should be equal to length with 5m when integer 5 is multiplied[0m
+
+Rectangle
+  Perimeter
+[32m    should be equal to 40 mm for l = 10 mm and b =10 mm[0m
+[32m    should be equal 400 mm to for l = 10 cm and b =10 cm[0m
+[32m    should be equal to 40000 mm for l = 10 m and b =10 m[0m
+
+Finished in 0.00294 seconds (files took 0.12253 seconds to load)
+[32m14 examples, 0 failures[0m
+
