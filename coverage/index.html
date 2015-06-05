@@ -5,7 +5,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <script src='./assets/0.10.0/application.js' type='text/javascript'></script>    
     <link href='./assets/0.10.0/application.css' media='screen, projection, print' rel='stylesheet' type='text/css'>
-    <link rel="shortcut icon" type="image/png" href="./assets/0.10.0/favicon_red.png" />
+    <link rel="shortcut icon" type="image/png" href="./assets/0.10.0/favicon_green.png" />
     <link rel="icon" type="image/png" href="./assets/0.10.0/favicon.png" />
   </head>
   
@@ -14,27 +14,27 @@
       <img src="./assets/0.10.0/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2015-06-05T15:53:26+05:30">2015-06-05T15:53:26+05:30</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2015-06-05T15:56:51+05:30">2015-06-05T15:56:51+05:30</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="red">65.79%</span></span>
+    (<span class="covered_percent"><span class="green">100.0%</span></span>
      covered at
      <span class="covered_strength">
-       <span class="red">
-         0.79
+       <span class="green">
+         6.28
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
-    <b>3</b> files in total.
-    <b>38</b> relevant lines. 
-    <span class="green"><b>25</b> lines covered</span> and
-    <span class="red"><b>13</b> lines missed </span>
+    <b>5</b> files in total.
+    <b>68</b> relevant lines. 
+    <span class="green"><b>68</b> lines covered</span> and
+    <span class="red"><b>0</b> lines missed </span>
   </div>
   <table class="file_list">
     <thead>
@@ -52,22 +52,22 @@
       
       <tr>
         <td class="strong"><a href="#5e8e5b7091649aac6848abb30d92631ff1f6fe98" class="src_link" title="lib/length.rb">lib/length.rb</a></td>
-        <td class="red strong">52.38 %</td>
+        <td class="green strong">100.0 %</td>
         <td>39</td>
         <td>21</td>
-        <td>11</td>
-        <td>10</td>
-        <td>0.5</td>
+        <td>21</td>
+        <td>0</td>
+        <td>9.7</td>
       </tr>
       
       <tr>
         <td class="strong"><a href="#ae44d73e6425ebc2d4f17691a674bf82ce55d4d4" class="src_link" title="lib/rectangle.rb">lib/rectangle.rb</a></td>
-        <td class="red strong">50.0 %</td>
+        <td class="green strong">100.0 %</td>
         <td>12</td>
         <td>6</td>
-        <td>3</td>
-        <td>3</td>
-        <td>0.5</td>
+        <td>6</td>
+        <td>0</td>
+        <td>2.0</td>
       </tr>
       
       <tr>
@@ -77,7 +77,27 @@
         <td>11</td>
         <td>11</td>
         <td>0</td>
-        <td>1.5</td>
+        <td>16.5</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#70f046c24e2570513287d03a0e751a3dc24c2366" class="src_link" title="spec/rectangle_spec.rb">spec/rectangle_spec.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>27</td>
+        <td>18</td>
+        <td>18</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#ac961aa5997d085e7f36ffb2ea5e2d954e0f2fed" class="src_link" title="spec/unit_spec.rb">spec/unit_spec.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>20</td>
+        <td>12</td>
+        <td>12</td>
+        <td>0</td>
+        <td>1.0</td>
       </tr>
       
     </tbody>
@@ -99,11 +119,11 @@
         <div class="source_table" id="5e8e5b7091649aac6848abb30d92631ff1f6fe98">
   <div class="header">
     <h3>lib/length.rb</h3>
-    <h4><span class="red">52.38 %</span> covered</h4>
+    <h4><span class="green">100.0 %</span> covered</h4>
     <div>
       <b>21</b> relevant lines. 
-      <span class="green"><b>11</b> lines covered</span> and
-      <span class="red"><b>10</b> lines missed.</span>
+      <span class="green"><b>21</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
   
@@ -146,14 +166,14 @@
           <code class="ruby">  def initialize(unit, value)</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="7">
-          
+        <li class="covered" data-hits="49" data-linenumber="7">
+          <span class="hits">49</span>
           
           <code class="ruby">    @value = value</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="8">
-          
+        <li class="covered" data-hits="49" data-linenumber="8">
+          <span class="hits">49</span>
           
           <code class="ruby">    @unit = unit</code>
         </li>
@@ -176,10 +196,10 @@
           <code class="ruby">  def self.initialize_in_cm(value)</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="12">
+        <li class="covered" data-hits="8" data-linenumber="12">
+          <span class="hits">8</span>
           
-          
-          <code class="ruby">    new(Unit.new(Unit::UNIT_CENTIMETER), value)</code>
+          <code class="ruby">    new(Unit.new(Unit::CENTIMETER), value)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="13">
@@ -200,10 +220,10 @@
           <code class="ruby">  def self.initialize_in_m(value)</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="16">
+        <li class="covered" data-hits="10" data-linenumber="16">
+          <span class="hits">10</span>
           
-          
-          <code class="ruby">    new(Unit.new(Unit::UNIT_METER), value)</code>
+          <code class="ruby">    new(Unit.new(Unit::METER), value)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="17">
@@ -224,10 +244,10 @@
           <code class="ruby">  def self.initialize_in_mm(value)</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="20">
+        <li class="covered" data-hits="31" data-linenumber="20">
+          <span class="hits">31</span>
           
-          
-          <code class="ruby">    new(Unit.new(Unit::UNIT_MILLIMETER), value)</code>
+          <code class="ruby">    new(Unit.new(Unit::MILLIMETER), value)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="21">
@@ -248,14 +268,14 @@
           <code class="ruby">  def ==(other_length)</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="24">
-          
+        <li class="covered" data-hits="16" data-linenumber="24">
+          <span class="hits">16</span>
           
           <code class="ruby">    raise ArgumentError unless (other_length &amp;&amp; self.class == other_length.class)</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="25">
-          
+        <li class="covered" data-hits="14" data-linenumber="25">
+          <span class="hits">14</span>
           
           <code class="ruby">    (@unit.convert_to_millimeter * value == other_length.unit.convert_to_millimeter * other_length.value)</code>
         </li>
@@ -278,8 +298,8 @@
           <code class="ruby">  def +(other_length)</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="29">
-          
+        <li class="covered" data-hits="7" data-linenumber="29">
+          <span class="hits">7</span>
           
           <code class="ruby">    Length.initialize_in_mm(@unit.convert_to_millimeter * value + other_length.unit.convert_to_millimeter * other_length.value)</code>
         </li>
@@ -302,8 +322,8 @@
           <code class="ruby">  def *(number)</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="33">
-          
+        <li class="covered" data-hits="6" data-linenumber="33">
+          <span class="hits">6</span>
           
           <code class="ruby">    Length.initialize_in_mm(@unit.convert_to_millimeter * value * number)</code>
         </li>
@@ -326,8 +346,8 @@
           <code class="ruby">  def hash</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="37">
-          
+        <li class="covered" data-hits="2" data-linenumber="37">
+          <span class="hits">2</span>
           
           <code class="ruby">    value.hash</code>
         </li>
@@ -351,11 +371,11 @@
         <div class="source_table" id="ae44d73e6425ebc2d4f17691a674bf82ce55d4d4">
   <div class="header">
     <h3>lib/rectangle.rb</h3>
-    <h4><span class="red">50.0 %</span> covered</h4>
+    <h4><span class="green">100.0 %</span> covered</h4>
     <div>
       <b>6</b> relevant lines. 
-      <span class="green"><b>3</b> lines covered</span> and
-      <span class="red"><b>3</b> lines missed.</span>
+      <span class="green"><b>6</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
   
@@ -386,14 +406,14 @@
           <code class="ruby">	def initialize(length, breadth)</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="5">
-          
+        <li class="covered" data-hits="3" data-linenumber="5">
+          <span class="hits">3</span>
           
           <code class="ruby">		@length = length</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="6">
-          
+        <li class="covered" data-hits="3" data-linenumber="6">
+          <span class="hits">3</span>
           
           <code class="ruby">		@breadth = breadth</code>
         </li>
@@ -416,8 +436,8 @@
           <code class="ruby">	def perimeter</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="10">
-          
+        <li class="covered" data-hits="3" data-linenumber="10">
+          <span class="hits">3</span>
           
           <code class="ruby">	  (@length + @breadth) * 2</code>
         </li>
@@ -467,25 +487,25 @@
         <li class="covered" data-hits="1" data-linenumber="3">
           <span class="hits">1</span>
           
-          <code class="ruby">  UNIT_MILLIMETER = &quot;mm&quot;</code>
+          <code class="ruby">  MILLIMETER = &quot;mm&quot;</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="4">
           <span class="hits">1</span>
           
-          <code class="ruby">  UNIT_METER = &quot;m&quot;</code>
+          <code class="ruby">  METER = &quot;m&quot;</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="5">
           <span class="hits">1</span>
           
-          <code class="ruby">  UNIT_CENTIMETER = &quot;cm&quot;</code>
+          <code class="ruby">  CENTIMETER = &quot;cm&quot;</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="6">
           <span class="hits">1</span>
           
-          <code class="ruby">  attr_reader :unit_name</code>
+          <code class="ruby">  attr_reader :name</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="7">
@@ -494,10 +514,10 @@
           <code class="ruby">  def initialize(unit)</code>
         </li>
       
-        <li class="covered" data-hits="3" data-linenumber="8">
-          <span class="hits">3</span>
+        <li class="covered" data-hits="52" data-linenumber="8">
+          <span class="hits">52</span>
           
-          <code class="ruby">    @unit_name = unit</code>
+          <code class="ruby">    @name = unit</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="9">
@@ -512,22 +532,22 @@
           <code class="ruby">  def convert_to_millimeter</code>
         </li>
       
-        <li class="covered" data-hits="3" data-linenumber="11">
-          <span class="hits">3</span>
+        <li class="covered" data-hits="51" data-linenumber="11">
+          <span class="hits">51</span>
           
-          <code class="ruby">    return value_in_mm = 1000 if self.unit_name == UNIT_METER</code>
+          <code class="ruby">    return value_in_mm = 1000 if self.name == METER</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="12">
-          <span class="hits">2</span>
+        <li class="covered" data-hits="40" data-linenumber="12">
+          <span class="hits">40</span>
           
-          <code class="ruby">    return value_in_mm = 10 if self.unit_name ==  UNIT_CENTIMETER</code>
+          <code class="ruby">    return value_in_mm = 10 if self.name ==  CENTIMETER</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="13">
-          <span class="hits">1</span>
+        <li class="covered" data-hits="32" data-linenumber="13">
+          <span class="hits">32</span>
           
-          <code class="ruby">    return value_in_mm = 1  if self.unit_name == UNIT_MILLIMETER</code>
+          <code class="ruby">    return value_in_mm = 1  if self.name == MILLIMETER</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="14">
@@ -537,6 +557,324 @@
         </li>
       
         <li class="never" data-hits="" data-linenumber="15">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+      
+        <div class="source_table" id="70f046c24e2570513287d03a0e751a3dc24c2366">
+  <div class="header">
+    <h3>spec/rectangle_spec.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>18</b> relevant lines. 
+      <span class="green"><b>18</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">require &#39;spec_helper&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">describe Rectangle do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="4">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  context &quot;Perimeter&quot; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="5">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    it &quot;should be equal to 40 mm for l = 10 mm and b =10 mm&quot; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="6">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      length = Length.initialize_in_mm(10)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="7">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      breadth = Length.initialize_in_mm(10)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="8">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      expected_perimeter = Length.initialize_in_mm(40)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="9">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      expect(Rectangle.new(length, breadth).perimeter).to eq(expected_perimeter)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="10">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="11">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="12">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    it &quot;should be equal 400 mm to for l = 10 cm and b =10 cm&quot; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="13">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      length = Length.initialize_in_cm(10)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="14">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      breadth = Length.initialize_in_cm(10)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="15">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      expected_perimeter = Length.initialize_in_mm(400)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="16">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      expect(Rectangle.new(length, breadth).perimeter).to eq(expected_perimeter)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="17">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="18">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="19">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    it &quot;should be equal to 40000 mm for l = 10 m and b =10 m&quot; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="20">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      length = Length.initialize_in_m(10)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="21">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      breadth = Length.initialize_in_m(10)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="22">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      expected_perimeter = Length.initialize_in_mm(40000)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="23">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      expect(Rectangle.new(length, breadth).perimeter).to eq(expected_perimeter)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="24">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="25">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="26">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="27">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+      
+        <div class="source_table" id="ac961aa5997d085e7f36ffb2ea5e2d954e0f2fed">
+  <div class="header">
+    <h3>spec/unit_spec.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>12</b> relevant lines. 
+      <span class="green"><b>12</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">require &#39;spec_helper&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">describe Unit do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="4">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  context &quot;Conversion&quot; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="5">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  	it &quot;millimeter should return factor 1 if converted to millimeter&quot; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="6">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      unit = Unit.new(Unit::MILLIMETER)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="7">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      expect(unit.convert_to_millimeter).to eq(1)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="8">
+          
+          
+          <code class="ruby">  	end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="9">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="10">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    it &quot;centimeter should return factor 10 if converted to millimeter&quot; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="11">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      unit = Unit.new(Unit::CENTIMETER)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="12">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      expect(unit.convert_to_millimeter).to eq(10)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="13">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="14">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="15">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    it &quot;meter should return factor 1000 if converted to millimeter&quot; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="16">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      unit = Unit.new(Unit::METER)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="17">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      expect(unit.convert_to_millimeter).to eq(1000)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="18">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="19">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="20">
           
           
           <code class="ruby">end</code>

@@ -1,15 +1,15 @@
 #Represents metric unit of length
 class Unit
-  UNIT_MILLIMETER = "mm"
-  UNIT_METER = "m"
-  UNIT_CENTIMETER = "cm"
-  attr_reader :unit_name
+  MILLIMETER = "mm"
+  METER = "m"
+  CENTIMETER = "cm"
+  attr_reader :name
   def initialize(unit)
-    @unit_name = unit
+    @name = unit
   end
   def convert_to_millimeter
-    return value_in_mm = 1000 if self.unit_name == UNIT_METER
-    return value_in_mm = 10 if self.unit_name ==  UNIT_CENTIMETER
-    return value_in_mm = 1  if self.unit_name == UNIT_MILLIMETER
+    return value_in_mm = 1000 if self.name == METER
+    return value_in_mm = 10 if self.name ==  CENTIMETER
+    return value_in_mm = 1  if self.name == MILLIMETER
   end
 end

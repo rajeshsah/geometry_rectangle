@@ -9,15 +9,15 @@ class Length
   end
 
   def self.initialize_in_cm(value)
-    new(Unit.new(Unit::UNIT_CENTIMETER), value)
+    new(Unit.new(Unit::CENTIMETER), value)
   end
 
   def self.initialize_in_m(value)
-    new(Unit.new(Unit::UNIT_METER), value)
+    new(Unit.new(Unit::METER), value)
   end
 
   def self.initialize_in_mm(value)
-    new(Unit.new(Unit::UNIT_MILLIMETER), value)
+    new(Unit.new(Unit::MILLIMETER), value)
   end
 
   def ==(other_length)
