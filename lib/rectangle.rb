@@ -2,15 +2,12 @@
 class Rectangle
 
 	def initialize(length,breadth)
-	  @length = length
-	  @breadth = breadth
+		@length = length.value_in_mm
+		@breadth = breadth.value_in_mm
 	end
 
 	def perimeter
-	  2*(@length + @breadth)
+	  (2*(@length + @breadth)).to_s + " mm"
 	end   
 
-	def area
-		@length * @breadth
-	end
 end 
