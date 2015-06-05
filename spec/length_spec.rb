@@ -26,7 +26,7 @@ describe Length do
     end
   end
 
-  context "Add" do
+  context "Add Two Lengths" do
     it "should be equal same when lenght of 0 m is added" do
       length = Length.new(10, Length::UNIT_MILLIMETER)
       expect(length + Length.new(0, Length::UNIT_METER)).to eq(length)
