@@ -7,6 +7,12 @@ describe Length do
       expect(length).to eq(length)
     end
 
+    it "with 10mm should be equal to length with 1cm in terms of hash" do
+      length_hash1 = Length.new(10, Length::UNIT_MILLIMETER).hash
+      length_hash2 = Length.new(10, Length::UNIT_CENTIMETER).hash
+      expect(length_hash1).to eq(length_hash2)
+    end
+
     it "with 10 mm should not be equal to length with 11 mm" do
       expect(Length.new(10, Length::UNIT_MILLIMETER)).to_not eq(Length.new(11, Length::UNIT_MILLIMETER))
     end
@@ -48,7 +54,7 @@ describe Length do
     end
   end
 
-  context "Multiplication" do
+  context "Multiplication with integer" do
     it "should be equal same when integer 1 is multiplied" do
       length = Length.new(10, Length::UNIT_MILLIMETER)
       expect(length * 1).to eq(length)
