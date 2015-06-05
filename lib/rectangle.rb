@@ -1,4 +1,4 @@
-#Calculating the perimeter and area of a rectangle
+# Represents geometrical rectangle as combination of length-breadth
 class Rectangle
 
 	def initialize(length,breadth)
@@ -7,7 +7,7 @@ class Rectangle
 	end
 
 	def perimeter
-	  (2*(@length + @breadth)).to_s + " mm"
+	  (2*(@length + @breadth)).to_s
 	end   
 
 end 
